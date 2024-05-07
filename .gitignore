@@ -90,3 +90,14 @@ fabric.properties
 
 # Android studio 3.1+ serialized cache file
 .idea/caches/build_file_checksums.ser
+.idea/vcs.xml
+.idea/modules.xml
+.idea/misc.xml
+.idea/leet-code-problems-rust.iml
+.idea/codeStyles/Project.xml
+.idea/codeStyles/codeStyleConfig.xml
+
+
+# Added by cargo
+
+/target
