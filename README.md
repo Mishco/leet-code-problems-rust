@@ -8,8 +8,8 @@ Repo with leet code problem written in rust. Similar [repo is written in java](h
 
 - [X] clean up java version
 - [X] make clean structure
-- [ ] move existing rust resources
-- [ ] add ci for automated test?
+- [x] move existing rust resources
+- [X] add ci for automated test
 
 ## Run
 
