@@ -1,7 +1,8 @@
 use std::collections::BinaryHeap;
 
+#[warn(dead_code)]
 pub fn maximum_happiness_sum(happiness: Vec<i32>, k: i32) -> i64 {
-    let mut local_happiness = happiness;
+    let local_happiness = happiness;
     let mut heap: BinaryHeap<i32> = local_happiness.into_iter().collect();
     let mut total_happiness: i64 = 0;
     let mut desc: i64 = 0;
